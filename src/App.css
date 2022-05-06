@@ -6,6 +6,16 @@ textarea{
    box-shadow: 5px 5px rgb(99, 93, 93);
    font-size: 1.4rem;
 }
+@media(max-width:768px){
+  textarea{
+    font-size: 1rem;
+    width: 40%;
+  }
+  h1{
+    font-size: 1rem;
+    margin-top:15%;
+  }
+}
 .App{
   font-family: Roboto;
   text-align: center;
